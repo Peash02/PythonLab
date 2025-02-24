@@ -1,0 +1,1 @@
+Student_details = { 'name':'', 'reg_no' : 101 , 'marks':[25,16,35] , }
