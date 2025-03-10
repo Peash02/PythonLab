@@ -79,6 +79,8 @@ def mark_comp():
 def remove_task():
     index = int(input("Enter the Index of task to be removed:"))
     tasks.pop(index)
+    for i in range(1,(len(tasks)+1)):
+        tasks[i]
     print("Successfully Removed Task.")
 
 def update_desc():
